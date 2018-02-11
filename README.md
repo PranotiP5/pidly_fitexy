@@ -11,6 +11,15 @@ Detailed explanation:
 Step 1: Create an IDL session:
 Make sure you have pexpect, pidly modules of python installed.
 
+    Type "pip install pidly"
+
+If that fails:
+
+    Download https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+    run it (type "python get-pip.py")
+    Type "pip install pidly"
+
+
 import pidly
 idl=pidly.IDL("path/to/idl")
 
